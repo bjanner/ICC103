@@ -1,20 +1,20 @@
 /*ALGORITMO
-1- Leer el número de cadenas a ingresar.
+1- Leer el nï¿½mero de cadenas a ingresar.
 2- Leer cada cadena y almacenarla en una matriz de caracteres.
-3-Para cada cadena, eliminar los espacios en blanco manteniendo el tamaño ajustado.
+3-Para cada cadena, eliminar los espacios en blanco manteniendo el tamaï¿½o ajustado.
 4 -Mostrar las cadenas transformadas*/
 
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#define MAX 100
+#define MAX 99
 
 void eliminarEspacios(char* cadena);
 int main() {
     char cadenas[MAX][MAX];
     int numCadenas;
 
-    printf("Ingrese el número de cadenas: ");
+    printf("Ingrese el nï¿½mero de cadenas: ");
     scanf("%d", &numCadenas);
 
 
